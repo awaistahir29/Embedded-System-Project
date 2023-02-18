@@ -1,5 +1,5 @@
 # Embedded Systems Project
-## Control System for an Autonomous Underwater Glider.
+## Control System for an Autonomous Underwater Glider
 A microcontroller board is connected to three motors. One is the main propeller, pushing the glider forward. The second motor actuates the rudder of the glider, allowing it to have a yaw motion. The third one is a linear motor that moves the battery pack, which in turns allows to statically change the pitch of the vehicle.
 The microcontroller receives desired reference values for the forward speed, the pitch, and the rudder angle. These reference signals are sent through a serial interface. The microcontroller sends feedback messages back to the control PC to report a few status information.
 
